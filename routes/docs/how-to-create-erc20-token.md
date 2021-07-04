@@ -34,37 +34,37 @@ Visit [ERC20 Token Generator](https://vittominacori.github.io/erc20-generator/)
 
 Choose between different token types and features.
 
-![Token Types](/images/docs/create/erc20/token-types.png)
+![Token Types](~@alias/images/docs/create/erc20/token-types.png)
 
 ### Enter your details
 
 Enter your preferred Token name and symbol. Choose your supply and Token type.
 
-![Token Details](/images/docs/create/erc20/token-details.png)
+![Token Details](~@alias/images/docs/create/erc20/token-details.png)
 
 ### Confirm your transaction
 
 Confirm your transaction using MetaMask.
 
-![Token Confirm](/images/docs/create/erc20/token-confirm.png)
+![Token Confirm](~@alias/images/docs/create/erc20/token-confirm.png)
 
 ### Waiting for confirmation
 
 Waiting for your transaction to be confirmed.
 
-![Token Waiting](/images/docs/create/erc20/token-waiting.png)
+![Token Waiting](~@alias/images/docs/create/erc20/token-waiting.png)
 
 ### View your token
 
 Your token is ready to use, view on Etherscan, add to MetaMask or create a widget.
 
-![Token Confirmed](/images/docs/create/erc20/token-confirmed.png)
+![Token Confirmed](~@alias/images/docs/create/erc20/token-confirmed.png)
 
 ### Verified source code
 
 Your source code will be automatically verified on Etherscan.
 
-![Token Source Code](/images/docs/create/erc20/token-source-code.png)
+![Token Source Code](~@alias/images/docs/create/erc20/token-source-code.png)
 
 ## Features
 ### Detailed

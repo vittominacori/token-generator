@@ -27,6 +27,13 @@ module.exports = {
       },
     ],
   ],
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@alias': '/token-generator/'
+      }
+    }
+  },
   themeConfig: {
     sidebar: false,
     search: false,
