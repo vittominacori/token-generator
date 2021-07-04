@@ -29,9 +29,9 @@ To most easily create your ERC20 token, you must first install a browser extensi
 :::
 
 ## ERC20
-* [ERC20 Token Generator](https://vittominacori.github.io/erc20-generator/)
+* [Create ERC20 Token](https://vittominacori.github.io/erc20-generator/)
 * [Documentation](/docs/how-to-create-erc20-token/)
 
 ## BEP20
-* [BEP20 Token Generator](https://vittominacori.github.io/bep20-generator/)
+* [Create BEP20 Token](https://vittominacori.github.io/bep20-generator/)
 * [Documentation](/docs/how-to-create-bep20-token/)
