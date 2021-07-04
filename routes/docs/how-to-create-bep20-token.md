@@ -34,37 +34,37 @@ Visit [BEP20 Token Generator](https://vittominacori.github.io/bep20-generator/)
 
 Choose between different token types and features.
 
-![Token Types](~@alias/images/docs/create/bep20/token-types.png)
+![Token Types](/token-generator/images/docs/create/bep20/token-types.png)
 
 ### Enter your details
 
 Enter your preferred Token name and symbol. Choose your supply and Token type.
 
-![Token Details](~@alias/images/docs/create/bep20/token-details.png)
+![Token Details](/token-generator/images/docs/create/bep20/token-details.png)
 
 ### Confirm your transaction
 
 Confirm your transaction using MetaMask.
 
-![Token Confirm](~@alias/images/docs/create/bep20/token-confirm.png)
+![Token Confirm](/token-generator/images/docs/create/bep20/token-confirm.png)
 
 ### Waiting for confirmation
 
 Waiting for your transaction to be confirmed.
 
-![Token Waiting](~@alias/images/docs/create/bep20/token-waiting.png)
+![Token Waiting](/token-generator/images/docs/create/bep20/token-waiting.png)
 
 ### View your token
 
 Your token is ready to use, view on BscScan or add to MetaMask.
 
-![Token Confirmed](~@alias/images/docs/create/bep20/token-confirmed.png)
+![Token Confirmed](/token-generator/images/docs/create/bep20/token-confirmed.png)
 
 ### Verified source code
 
 Your source code will be automatically verified on BscScan.
 
-![Token Source Code](~@alias/images/docs/create/bep20/token-source-code.png)
+![Token Source Code](/token-generator/images/docs/create/bep20/token-source-code.png)
 
 ## Features
 ### Detailed
