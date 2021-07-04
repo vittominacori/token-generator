@@ -19,9 +19,9 @@
         <changefreq>weekly</changefreq>
         <priority>1.00</priority>
     </url>
-    <!--<url>
+    <url>
         <loc>https://vittominacori.github.io/token-generator/docs/how-to-create-erc20-token/</loc>
         <changefreq>weekly</changefreq>
         <priority>1.00</priority>
-    </url>-->
+    </url>
 </urlset>
