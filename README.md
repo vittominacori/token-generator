@@ -4,7 +4,7 @@ home: true
 heroText: Token Generator
 tagline: Create your own ERC20 or BEP20 Token in less than a minute.
 actionText: Get Started →
-actionLink: /docs/
+actionLink: /tutorials/
 navbar: true
 meta: 
     - property: og:url
@@ -19,7 +19,7 @@ meta:
       content: The most used Smart Contract Generator for ERC20 and BEP20 Token.
 features:
 - title: Install MetaMask
-  details: You need to have MetaMask installed with an amount of ETH/BNB to pay for contract deployment.
+  details: You need to have MetaMask installed with an amount of ETH/BNB/MATIC to pay for contract deployment.
 - title: Enter Details
   details: Enter your preferred Token name and symbol. Choose your supply and Token type.
 - title: Deploy Token
@@ -30,16 +30,20 @@ features:
 
 Create your own ERC20 or BEP20 Token in less than a minute with the most used Smart Contract Generator for ERC20 and BEP20 Token.
 
-Token Generator is a distributed application that runs on the Blockchain (Ethereum or BSC network), using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
+Token Generator is a distributed application that runs on the Blockchain (Ethereum, Polygon or BSC network), using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
 
 Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable|Operable Token.
 
 **No login. No setup. No coding required.**
 
-## ERC20
-* [Create ERC20 Token](https://vittominacori.github.io/erc20-generator/)
-* [Documentation](/docs/how-to-create-erc20-token/)
+## Ethereum
+* [Create ERC20](https://vittominacori.github.io/erc20-generator/)
+* [Documentation](/tutorials/how-to-create-erc20-token/)
 
-## BEP20
-* [Create BEP20 Token](https://vittominacori.github.io/bep20-generator/)
-* [Documentation](/docs/how-to-create-bep20-token/)
+## Binance Smart Chain
+* [Create BEP20](https://vittominacori.github.io/bep20-generator/)
+* [Documentation](/tutorials/how-to-create-bep20-token/)
+
+## Polygon
+* [Create ERC20](https://vittominacori.github.io/polygon-generator/)
+* [Documentation](/tutorials/how-to-create-polygon-erc20-token/)

@@ -37,17 +37,19 @@ module.exports = {
         link: '/',
       },
       {
-        text: 'Docs',
+        text: 'Tutorials',
         items: [
-          { text: 'How to create ERC20', link: '/docs/how-to-create-erc20-token/' },
-          { text: 'How to create BEP20', link: '/docs/how-to-create-bep20-token/' }
+          { text: 'Ethereum', link: '/tutorials/how-to-create-erc20-token/' },
+          { text: 'Binance Smart Chain', link: '/tutorials/how-to-create-bep20-token/' },
+          { text: 'Polygon', link: '/tutorials/how-to-create-polygon-erc20-token/' }
         ]
       },
       {
         text: 'Create Token',
         items: [
-          { text: 'ERC20', link: 'https://vittominacori.github.io/erc20-generator/', target: '_self' },
-          { text: 'BEP20', link: 'https://vittominacori.github.io/bep20-generator/', target: '_self' }
+          { text: 'ERC20 on Ethereum', link: 'https://vittominacori.github.io/erc20-generator/', target: '_self' },
+          { text: 'BEP20 on Binance Smart Chain', link: 'https://vittominacori.github.io/bep20-generator/', target: '_self' },
+          { text: 'ERC20 on Polygon', link: 'https://vittominacori.github.io/polygon-generator/', target: '_self' }
         ]
       }
     ]

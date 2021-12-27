@@ -1,26 +1,27 @@
 ---
-permalink: docs/how-to-create-erc20-token
-title: How to create ERC20 Token
-description:  Create your own ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
+permalink: tutorials/how-to-create-polygon-erc20-token
+title: How to create ERC20 Token on Polygon Network
+description: Create your own Polygon ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon Network.
 meta:
     - property: og:url 
-      content: https://vittominacori.github.io/docs/how-to-create-erc20-token/
+      content: https://vittominacori.github.io/tutorials/how-to-create-erc20-token/
     - property: og:title
-      content: How to create ERC20 Token | Token Generator
+      content: How to create ERC20 Token on Polygon Network | Token Generator
     - property: og:description
-      content: Create your own ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
+      content: Create your own Polygon ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon Network.
     - property: twitter:title
-      content: How to create ERC20 Token | Token Generator
+      content: How to create ERC20 Token on Polygon Network | Token Generator
     - property: twitter:description
-      content: Create your own ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
+      content: Create your own Polygon ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon Network.
 ---
 
-# How to create ERC20 Token
-ERC20 Token Generator is a distributed application that runs on the Ethereum network, using specially-developed Smart Contracts to enable users to build their ERC20 Tokens.
+# How to create Polygon ERC20 
+## Polygon Network
+Polygon ERC20 Token Generator is a distributed application that runs on the Polygon network, using specially-developed Smart Contracts to enable users to build their ERC20 Tokens.
 
-Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
+Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon Network.
 
-Create an ERC20 Token in less than a minute.
+Create a Polygon ERC20 Token in less than a minute.
 
 **No login. No setup. No coding required.**
 
@@ -28,43 +29,43 @@ Create an ERC20 Token in less than a minute.
 
 ## Create Token
 
-Visit [ERC20 Token Generator](https://vittominacori.github.io/erc20-generator/)
+Visit [Polygon ERC20 Token Generator](https://vittominacori.github.io/polygon-generator/)
 
 ### Choose your token type
 
 Choose between different token types and features.
 
-![Token Types](/token-generator/images/docs/create/erc20/token-types.png)
+![Token Types](/token-generator/images/tutorials/create/polygon/token-types.png)
 
 ### Enter your details
 
 Enter your preferred Token name and symbol. Choose your supply and Token type.
 
-![Token Details](/token-generator/images/docs/create/erc20/token-details.png)
+![Token Details](/token-generator/images/tutorials/create/polygon/token-details.png)
 
 ### Confirm your transaction
 
 Confirm your transaction using MetaMask.
 
-![Token Confirm](/token-generator/images/docs/create/erc20/token-confirm.png)
+![Token Confirm](/token-generator/images/tutorials/create/polygon/token-confirm.png)
 
 ### Waiting for confirmation
 
 Waiting for your transaction to be confirmed.
 
-![Token Waiting](/token-generator/images/docs/create/erc20/token-waiting.png)
+![Token Waiting](/token-generator/images/tutorials/create/polygon/token-waiting.png)
 
 ### View your token
 
-Your token is ready to use, view on Etherscan, add to MetaMask or create a widget.
+Your token is ready to use, view on PolygonScan, add to MetaMask or create a widget.
 
-![Token Confirmed](/token-generator/images/docs/create/erc20/token-confirmed.png)
+![Token Confirmed](/token-generator/images/tutorials/create/polygon/token-confirmed.png)
 
 ### Verified source code
 
-Your source code will be automatically verified on Etherscan.
+Your source code will be automatically verified on PolygonScan.
 
-![Token Source Code](/token-generator/images/docs/create/erc20/token-source-code.png)
+![Token Source Code](/token-generator/images/tutorials/create/polygon/token-source-code.png)
 
 ## Features
 ### Detailed
@@ -114,15 +115,15 @@ There are lots of tokens lost forever into Smart Contracts. It allows the contra
 
 ## View App
 
-Visit [ERC20 Token Generator](https://vittominacori.github.io/erc20-generator/)
+Visit [Polygon ERC20 Token Generator](https://vittominacori.github.io/polygon-generator/)
 
 ## Disclaimer
 
 ::: warning DISCLAIMER
-ERC20 Token Generator and its author are free of any liability regarding Tokens built using this App, and the use that is made of them.
-Tokens built on ERC20 Token Generator, their projects, their teams, their use of Token (as well as anything related to Token) are in no way connected to ERC20 Token Generator or its author.
+Token Generator and its author are free of any liability regarding Tokens built using this App, and the use that is made of them.
+Tokens built on Token Generator, their projects, their teams, their use of Token (as well as anything related to Token) are in no way connected to Token Generator or its author.
 
-ERC20 Token Generator's code is provided under MIT License. Anyone can use it as per their needs.
+Token Generator's code is provided under MIT License. Anyone can use it as per their needs.
 The App's purpose is to make people able to tokenize their ideas without coding or paying large amounts for it.
 Source code is public and well tested and continuously updated to reduce risk of bugs and introduce language optimizations.
 Anyway the purchase of tokens involves a high degree of risk.
