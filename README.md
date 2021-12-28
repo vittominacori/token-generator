@@ -30,7 +30,7 @@ features:
 
 Create your own ERC20 or BEP20 Token in less than a minute with the most used Smart Contract Generator for ERC20 and BEP20 Token.
 
-Token Generator is a distributed application that runs on the Blockchain (Ethereum, Polygon or BSC network), using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
+Token Generator is a distributed application that runs on the Blockchain (Ethereum, BSC and Polygon network), using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
 
 Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable|Operable Token.
 

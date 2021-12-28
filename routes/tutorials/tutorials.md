@@ -16,7 +16,7 @@ meta:
 ---
 
 # Tutorials
-Token Generator is a distributed application that runs on the Blockchain (Ethereum, Polygon or BSC network), using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
+Token Generator is a distributed application that runs on the Blockchain (Ethereum, BSC and Polygon network), using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
 
 Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable|Operable Token.
 
