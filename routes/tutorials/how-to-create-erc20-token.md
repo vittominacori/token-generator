@@ -16,6 +16,13 @@ meta:
 ---
 
 # How to create ERC20 Token
+
+::: warning IMPORTANT UPDATE
+We are moving our Token Generator tool to a new house. We created SmartContracts Tools at NONCEPT.
+
+Visit [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/) to discover new features, use latest compiler version, and get discount on some Token price.
+:::
+
 ## Ethereum Network
 ERC20 Token Generator is a distributed application that runs on the Ethereum network, using specially-developed Smart Contracts to enable users to build their ERC20 Tokens.
 

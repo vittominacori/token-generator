@@ -24,8 +24,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.9.5",
-    "vuepress": "^1.9.5",
+    "@vuepress/plugin-google-analytics": "^1.9.7",
+    "vuepress": "^1.9.7",
     "vuepress-plugin-facebook-pixel": "^1.0.0"
   }
 }

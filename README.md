@@ -28,6 +28,12 @@ features:
 
 ---
 
+::: warning IMPORTANT UPDATE
+We are moving our Token Generator tool to a new house. We created SmartContracts Tools at NONCEPT.
+
+Visit [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/) to discover new features, use latest compiler version, and get discount on some Token price.
+:::
+
 Create your own ERC20 or BEP20 Token in less than a minute with the most used Smart Contract Generator for ERC20 and BEP20 Token.
 
 Token Generator is a distributed application that runs on the Blockchain (Ethereum, BSC and Polygon network), using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
