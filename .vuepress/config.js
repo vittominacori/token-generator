@@ -5,7 +5,7 @@ module.exports = {
   description: 'The most used Smart Contract Generator for ERC20 and BEP20 Token.',
   base: '/token-generator/',
   plugins: [
-    ['@vuepress/google-analytics', {
+    ['google-gtag', {
       ga: vars.gaId
     }],
     ['vuepress-plugin-facebook-pixel', {

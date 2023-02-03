@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "The most used Smart Contract Generator for ERC20 and BEP20 Token.",
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build",
-    "deploy": "vuepress build && sh scripts/deploy.sh"
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build",
+    "deploy": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build && sh scripts/deploy.sh"
   },
   "author": "Vittorio Minacori (@vittominacori)",
   "contributors": [
@@ -24,8 +24,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.9.7",
-    "vuepress": "^1.9.7",
-    "vuepress-plugin-facebook-pixel": "^1.0.0"
+    "vuepress": "^1.9.8",
+    "vuepress-plugin-facebook-pixel": "^1.0.0",
+    "vuepress-plugin-google-gtag": "^1.0.1"
   }
 }
