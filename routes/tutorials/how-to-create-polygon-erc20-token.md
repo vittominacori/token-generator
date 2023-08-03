@@ -125,14 +125,25 @@ Visit [Polygon ERC20 Token Generator](https://vittominacori.github.io/polygon-ge
 ## Disclaimer
 
 ::: warning DISCLAIMER
-Token Generator and its author are free of any liability regarding Tokens built using this App, and the use that is made of them.
-Tokens built on Token Generator, their projects, their teams, their use of Token (as well as anything related to Token) are in no way connected to Token Generator or its author.
+**Token Generator** and its author are free of any liability
+regarding Tokens built using this App, and the use that is made of
+them. Tokens built on Token Generator, their projects, their teams,
+their use of Token (as well as anything related to Token) are in no
+way connected to Token Generator or its author.
+Anyone can use the App as per their needs. The App's purpose is to
+make people able to tokenize their ideas without coding. Source code
+is verified and well tested and continuously updated to reduce risk
+of bugs and introduce language optimizations. Anyway the purchase of
+tokens involves a high degree of risk. Before acquiring tokens, it
+is recommended to carefully weighs all the information and risks
+detailed in Token owner's Conditions. We do not promote or recommend
+any financial investment.
+:::
 
-Token Generator's code is provided under MIT License. Anyone can use it as per their needs.
-The App's purpose is to make people able to tokenize their ideas without coding or paying large amounts for it.
-Source code is public and well tested and continuously updated to reduce risk of bugs and introduce language optimizations.
-Anyway the purchase of tokens involves a high degree of risk.
-Before acquiring tokens, it is recommended to carefully weighs all the information and risks detailed in Token owner's Conditions.
+::: tip &copy; 2023 All rights reserved.
+**Token Generator** is a registered software by [@vittominacori](https://vittorio.minacori.me)
+
+Unauthorized reproduction, copying, distribution or any other use of the whole or any part of this software is strictly prohibited.
 :::
 
 ## Contacts
