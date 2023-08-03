@@ -1,24 +1,22 @@
 ---
 permalink: tutorials
 title: Tutorials
-description: Discover how to create your own ERC20 or BEP20 Token in less than a minute.
+description: Discover how to Create ERC20 or BEP20 Token in less than a minute.
 meta:
     - property: og:url 
       content: https://vittominacori.github.io/tutorials/
     - property: og:title
       content: Tutorials | Token Generator
     - property: og:description
-      content: Discover how to create your own ERC20 or BEP20 Token in less than a minute.
+      content: Discover how to Create ERC20 or BEP20 Token in less than a minute.
     - property: twitter:title
       content: Tutorials | Token Generator
     - property: twitter:description
-      content: Discover how to create your own ERC20 or BEP20 Token in less than a minute.
+      content: Discover how to Create ERC20 or BEP20 Token in less than a minute.
 ---
 
 ::: warning IMPORTANT UPDATE
-We are moving our Token Generator tool to a new house. We created SmartContracts Tools at NONCEPT.
-
-Visit [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/) to discover new features, use latest compiler version, and get discount on some Token price.
+Token Generator is now available only on [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/).
 :::
 
 # Tutorials

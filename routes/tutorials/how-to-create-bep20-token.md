@@ -1,26 +1,24 @@
 ---
 permalink: tutorials/how-to-create-bep20-token
 title: How to create BEP20 Token on Binance Smart Chain
-description: Create your own BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.
+description: Create BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.
 meta:
     - property: og:url 
       content: https://vittominacori.github.io/tutorials/how-to-create-bep20-token/
     - property: og:title
       content: How to create BEP20 Token on Binance Smart Chain | Token Generator
     - property: og:description
-      content: Create your own BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.
+      content: Create BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.
     - property: twitter:title
       content: How to create BEP20 Token on Binance Smart Chain | Token Generator
     - property: twitter:description
-      content: Create your own BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.
+      content: Create BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.
 ---
 
 # How to create BEP20 Token
 
 ::: warning IMPORTANT UPDATE
-We are moving our Token Generator tool to a new house. We created SmartContracts Tools at NONCEPT.
-
-Visit [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/) to discover new features, use latest compiler version, and get discount on some Token price.
+Token Generator is now available only on [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/).
 :::
 
 ## Binance Smart Chain

@@ -1,8 +1,8 @@
 ---
-title: Token Generator | Create your own ERC20 or BEP20 Token
+title: Token Generator | Create ERC20 or BEP20 Token
 home: true
 heroText: Token Generator
-tagline: Create your own ERC20 or BEP20 Token in less than a minute.
+tagline: Create ERC20 Token in less than a minute.
 actionText: Get Started →
 actionLink: /tutorials/
 navbar: true
@@ -10,11 +10,11 @@ meta:
     - property: og:url
       content: https://vittominacori.github.io/
     - property: og:title
-      content: Token Generator | Create your own ERC20 or BEP20 Token
+      content: Token Generator | Create ERC20 or BEP20 Token
     - property: og:description
       content: The most used Smart Contract Generator for ERC20 and BEP20 Token.
     - property: twitter:title
-      content: Token Generator | Create your own ERC20 or BEP20 Token
+      content: Token Generator | Create ERC20 or BEP20 Token
     - property: twitter:description
       content: The most used Smart Contract Generator for ERC20 and BEP20 Token.
 features:
@@ -29,16 +29,18 @@ features:
 ---
 
 ::: warning IMPORTANT UPDATE
-We are moving our Token Generator tool to a new house. We created SmartContracts Tools at NONCEPT.
-
-Visit [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/) to discover new features, use latest compiler version, and get discount on some Token price.
+Token Generator is now available only on [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/). 
 :::
 
-Create your own ERC20 or BEP20 Token in less than a minute with the most used Smart Contract Generator for ERC20 and BEP20 Token.
+Create ERC20 Tokens in less than a minute with the most used Smart Contract Generator for ERC20 and BEP20 Token.
 
 Token Generator is a distributed application that runs on the Blockchain (Ethereum, BSC and Polygon network), using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
 
-Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable|Operable Token.
+With our Token Generator, you have the flexibility to tailor your token to meet your specific requirements and objectives.
+The user-friendly interface provides a seamless experience, allowing even those without extensive technical knowledge to create tokens efficiently.
+You can effortlessly define the token's name, symbol, total supply, and decimal places, as well as select different features such as Mintable, Burnable, Transfer Type, Access Type, ERC1363 and others, giving your token its unique identity.
+
+Try it FREE.
 
 **No login. No setup. No coding required.**
 
@@ -53,3 +55,11 @@ Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable
 ## Polygon
 * [Create ERC20](https://vittominacori.github.io/polygon-generator/)
 * [Documentation](/tutorials/how-to-create-polygon-erc20-token/)
+
+---
+
+::: tip &copy; 2023 All rights reserved.
+**Token Generator** is a registered software by [@vittominacori](https://vittorio.minacori.me)
+
+Unauthorized reproduction, copying, distribution or any other use of the whole or any part of this software is strictly prohibited.
+:::

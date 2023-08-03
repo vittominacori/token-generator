@@ -1,26 +1,24 @@
 ---
 permalink: tutorials/how-to-create-erc20-token
 title: How to create ERC20 Token on Ethereum Network
-description: Create your own ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
+description: Create ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
 meta:
     - property: og:url 
       content: https://vittominacori.github.io/tutorials/how-to-create-erc20-token/
     - property: og:title
       content: How to create ERC20 Token on Ethereum Network | Token Generator
     - property: og:description
-      content: Create your own ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
+      content: Create ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
     - property: twitter:title
       content: How to create ERC20 Token on Ethereum Network | Token Generator
     - property: twitter:description
-      content: Create your own ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
+      content: Create ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
 ---
 
 # How to create ERC20 Token
 
 ::: warning IMPORTANT UPDATE
-We are moving our Token Generator tool to a new house. We created SmartContracts Tools at NONCEPT.
-
-Visit [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/) to discover new features, use latest compiler version, and get discount on some Token price.
+Token Generator is now available only on [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/).
 :::
 
 ## Ethereum Network
