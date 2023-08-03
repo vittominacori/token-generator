@@ -141,7 +141,7 @@ any financial investment.
 :::
 
 ::: tip &copy; 2023 All rights reserved.
-**Token Generator** is a registered software by [Vittorio Minacori](https://vittorio.minacori.me)
+**Token Generator** is a software registered by [Vittorio Minacori](https://vittorio.minacori.me)
 
 Unauthorized reproduction, copying, distribution or any other use of the whole or any part of this software is strictly prohibited.
 :::
