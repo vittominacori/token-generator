@@ -6,30 +6,30 @@ tagline: Create a Token in less than a minute with the most trusted Smart Contra
 actionText: Get Started →
 actionLink: /tutorials/
 navbar: true
-meta: 
-    - property: og:url
-      content: https://vittominacori.github.io/
-    - property: og:title
-      content: Token Generator | Create ERC20 or BEP20 Token
-    - property: og:description
-      content: The most used Smart Contract Generator for ERC20 and BEP20 Token.
-    - property: twitter:title
-      content: Token Generator | Create ERC20 or BEP20 Token
-    - property: twitter:description
-      content: The most used Smart Contract Generator for ERC20 and BEP20 Token.
+meta:
+  - property: og:url
+    content: https://vittominacori.github.io/
+  - property: og:title
+    content: Token Generator | Create ERC20 or BEP20 Token
+  - property: og:description
+    content: The most used Smart Contract Generator for ERC20 and BEP20 Token.
+  - property: twitter:title
+    content: Token Generator | Create ERC20 or BEP20 Token
+  - property: twitter:description
+    content: The most used Smart Contract Generator for ERC20 and BEP20 Token.
 features:
-- title: Install MetaMask
-  details: You need to have MetaMask installed with an amount of ETH/BNB/MATIC to pay for contract deployment.
-- title: Enter Details
-  details: Enter your preferred Token name and symbol. Choose your supply and Token type.
-- title: Deploy Token
-  details: Confirm your transaction using MetaMask. Once deployed your Token is ready to use.
+  - title: Install MetaMask
+    details: You need to have MetaMask installed with an amount of ETH/BNB/MATIC to pay for contract deployment.
+  - title: Enter Details
+    details: Enter your preferred Token name and symbol. Choose your supply and Token type.
+  - title: Deploy Token
+    details: Confirm your transaction using MetaMask. Once deployed your Token is ready to use.
 ---
 
 ---
 
 ::: warning IMPORTANT UPDATE
-Token Generator is now available only on [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/). 
+Token Generator is now available only on [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/).
 :::
 
 Create ERC20 Tokens in less than a minute with the most used Smart Contract Generator for ERC20 and BEP20 Token.
@@ -45,16 +45,19 @@ Try it FREE.
 **No login. No setup. No coding required.**
 
 ## Ethereum Network
-* [Create ERC20 on Ethereum Network](https://vittominacori.github.io/erc20-generator/)
-* [Documentation](/tutorials/how-to-create-erc20-token/)
+
+- [Create ERC20 on Ethereum Network](https://vittominacori.github.io/erc20-generator/)
+- [Documentation](/tutorials/how-to-create-erc20-token/)
 
 ## BNB Smart Chain (BSC)
-* [Create BEP20 on BNB Smart Chain](https://vittominacori.github.io/bep20-generator/)
-* [Documentation](/tutorials/how-to-create-bep20-token/)
+
+- [Create BEP20 on BNB Smart Chain](https://vittominacori.github.io/bep20-generator/)
+- [Documentation](/tutorials/how-to-create-bep20-token/)
 
 ## Polygon PoS Chain
-* [Create ERC20 on Polygon PoS Chain](https://vittominacori.github.io/polygon-generator/)
-* [Documentation](/tutorials/how-to-create-polygon-erc20-token/)
+
+- [Create ERC20 on Polygon PoS Chain](https://vittominacori.github.io/polygon-generator/)
+- [Documentation](/tutorials/how-to-create-polygon-erc20-token/)
 
 ---
 
