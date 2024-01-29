@@ -89,7 +89,7 @@ module.exports = {
         text: "Create Token",
         items: [
           {
-            text: "ERC20 on Ethereum",
+            text: "ERC20 on Ethereum Network",
             link: "https://vittominacori.github.io/erc20-generator/",
             target: "_self",
           },
@@ -99,7 +99,7 @@ module.exports = {
             target: "_self",
           },
           {
-            text: "ERC20 on Polygon",
+            text: "ERC20 on Polygon PoS Chain",
             link: "https://vittominacori.github.io/polygon-generator/",
             target: "_self",
           },

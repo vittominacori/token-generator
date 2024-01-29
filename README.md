@@ -11,13 +11,13 @@ meta:
   - property: og:url
     content: https://vittominacori.github.io/token-generator/
   - property: og:title
-    content: Token Generator | Create ERC20 or BEP20 Token
+    content: Token Generator | Create ERC20 Tokens In A Few Steps
   - property: og:description
-    content: The most used Smart Contract Generator for ERC20 and BEP20 Token.
+    content: Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
   - property: twitter:title
-    content: Token Generator | Create ERC20 or BEP20 Token
+    content: Token Generator | Create ERC20 Tokens In A Few Steps
   - property: twitter:description
-    content: The most used Smart Contract Generator for ERC20 and BEP20 Token.
+    content: Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
 features:
   - title: Install MetaMask
     details: You need to have MetaMask installed with an amount of ETH/BNB/MATIC to pay for contract deployment.
