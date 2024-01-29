@@ -8,7 +8,7 @@ actionLink: /tutorials/
 navbar: true
 meta:
   - property: og:url
-    content: https://vittominacori.github.io/
+    content: https://vittominacori.github.io/tutorials/
   - property: og:title
     content: Token Generator | Create ERC20 or BEP20 Token
   - property: og:description

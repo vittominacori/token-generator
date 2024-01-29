@@ -4,7 +4,7 @@ title: How to create ERC20 Token on Polygon PoS Chain
 description: Create Polygon ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon PoS Chain.
 meta:
   - property: og:url
-    content: https://vittominacori.github.io/tutorials/how-to-create-erc20-token/
+    content: https://vittominacori.github.io/tutorials/how-to-create-polygon-erc20-token/
   - property: og:title
     content: How to create ERC20 Token on Polygon PoS Chain | Token Generator
   - property: og:description
