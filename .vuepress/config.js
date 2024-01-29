@@ -2,8 +2,6 @@ const vars = require("./.env.json");
 
 module.exports = {
   title: "Token Generator",
-  description:
-    "The most used Smart Contract Generator for ERC20 and BEP20 Token.",
   base: "/token-generator/",
   plugins: [
     [
@@ -33,7 +31,7 @@ module.exports = {
       "meta",
       {
         property: "og:url",
-        content: "https://vittominacori.github.io/token-generator",
+        content: "https://vittominacori.github.io/token-generator/",
       },
     ],
     [
@@ -41,7 +39,7 @@ module.exports = {
       {
         property: "og:image",
         content:
-          "https://vittominacori.github.io/token-generator/assets/images/todo.jpg",
+          "https://vittominacori.github.io/token-generator/images/token-generator.jpg",
       },
     ],
     ["meta", { property: "twitter:card", content: "summary_large_image" }],
@@ -50,7 +48,7 @@ module.exports = {
       {
         property: "twitter:image",
         content:
-          "https://vittominacori.github.io/token-generator/assets/images/todo.jpg",
+          "https://vittominacori.github.io/token-generator/images/token-generator.jpg",
       },
     ],
     [

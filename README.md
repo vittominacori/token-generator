@@ -1,5 +1,6 @@
 ---
 title: Token Generator | Create ERC20 Tokens In A Few Steps
+description: Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
 home: true
 heroText: Token Generator
 tagline: Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
@@ -8,7 +9,7 @@ actionLink: /tutorials/
 navbar: true
 meta:
   - property: og:url
-    content: https://vittominacori.github.io/tutorials/
+    content: https://vittominacori.github.io/token-generator/
   - property: og:title
     content: Token Generator | Create ERC20 or BEP20 Token
   - property: og:description

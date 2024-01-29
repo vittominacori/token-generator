@@ -4,7 +4,7 @@ title: Tutorials
 description: Discover how to Create ERC20 or BEP20 Token in less than a minute. No login. No setup. No coding required.
 meta:
   - property: og:url
-    content: https://vittominacori.github.io/tutorials/
+    content: https://vittominacori.github.io/token-generator/tutorials/
   - property: og:title
     content: Tutorials | Token Generator
   - property: og:description

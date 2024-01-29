@@ -4,7 +4,7 @@ title: How to create BEP20 Token on BNB Smart Chain (BSC)
 description: Create BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable BEP20 Token.
 meta:
   - property: og:url
-    content: https://vittominacori.github.io/tutorials/how-to-create-bep20-token/
+    content: https://vittominacori.github.io/token-generator/tutorials/how-to-create-bep20-token/
   - property: og:title
     content: How to create BEP20 Token on BNB Smart Chain (BSC) | Token Generator
   - property: og:description
