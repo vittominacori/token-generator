@@ -5,7 +5,7 @@ home: true
 heroText: Token Generator
 tagline: Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
 actionText: Get Started →
-actionLink: /tutorials/
+actionLink: /#ethereum-network
 navbar: true
 meta:
   - property: og:url
