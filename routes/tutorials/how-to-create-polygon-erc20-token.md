@@ -1,30 +1,30 @@
 ---
 permalink: tutorials/how-to-create-polygon-erc20-token
-title: How to create ERC20 Token on Polygon Network
-description: Create Polygon ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon Network.
+title: How to create ERC20 Token on Polygon PoS Chain
+description: Create Polygon ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon PoS Chain.
 meta:
     - property: og:url 
       content: https://vittominacori.github.io/tutorials/how-to-create-erc20-token/
     - property: og:title
-      content: How to create ERC20 Token on Polygon Network | Token Generator
+      content: How to create ERC20 Token on Polygon PoS Chain | Token Generator
     - property: og:description
-      content: Create Polygon ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon Network.
+      content: Create Polygon ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon PoS Chain.
     - property: twitter:title
-      content: How to create ERC20 Token on Polygon Network | Token Generator
+      content: How to create ERC20 Token on Polygon PoS Chain | Token Generator
     - property: twitter:description
-      content: Create Polygon ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon Network.
+      content: Create Polygon ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon PoS Chain.
 ---
 
-# How to create Polygon ERC20 
+# How to create ERC20 Token on Polygon PoS Chain
 
 ::: warning IMPORTANT UPDATE
 Token Generator is now available only on [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/).
 :::
 
-## Polygon Network
-Polygon ERC20 Token Generator is a distributed application that runs on the Polygon network, using specially-developed Smart Contracts to enable users to build their ERC20 Tokens.
+## Polygon PoS Chain
+Polygon ERC20 Token Generator is a distributed application that runs on the Polygon PoS Chain, using specially-developed Smart Contracts to enable users to build their ERC20 Tokens.
 
-Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon Network.
+Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token on Polygon PoS Chain.
 
 Create a Polygon ERC20 Token in less than a minute.
 
@@ -140,7 +140,7 @@ detailed in Token owner's Conditions. We do not promote or recommend
 any financial investment.
 :::
 
-::: tip &copy; 2023 All rights reserved.
+::: tip &copy; 2024 All rights reserved.
 **Token Generator** is a software registered by [Vittorio Minacori](https://vittorio.minacori.me)
 
 Unauthorized reproduction, copying, distribution or any other use of the whole or any part of this software is strictly prohibited.

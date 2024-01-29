@@ -15,18 +15,18 @@ meta:
       content: Create ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
 ---
 
-# How to create ERC20 Token
+# How to create ERC20 Token on Ethereum Network
 
 ::: warning IMPORTANT UPDATE
 Token Generator is now available only on [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/).
 :::
 
 ## Ethereum Network
-ERC20 Token Generator is a distributed application that runs on the Ethereum network, using specially-developed Smart Contracts to enable users to build their ERC20 Tokens.
+ERC20 Token Generator is a distributed application that runs on the Ethereum Network, using specially-developed Smart Contracts to enable users to build their ERC20 Tokens.
 
 Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
 
-Create an ERC20 Token in less than a minute.
+Create an Ethereum ERC20 Token in less than a minute.
 
 **No login. No setup. No coding required.**
 
@@ -140,7 +140,7 @@ detailed in Token owner's Conditions. We do not promote or recommend
 any financial investment.
 :::
 
-::: tip &copy; 2023 All rights reserved.
+::: tip &copy; 2024 All rights reserved.
 **Token Generator** is a software registered by [Vittorio Minacori](https://vittorio.minacori.me)
 
 Unauthorized reproduction, copying, distribution or any other use of the whole or any part of this software is strictly prohibited.

@@ -1,32 +1,32 @@
 ---
 permalink: tutorials/how-to-create-bep20-token
-title: How to create BEP20 Token on Binance Smart Chain
-description: Create BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.
+title: How to create BEP20 Token on BNB Smart Chain (BSC)
+description: Create BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable BEP20 Token.
 meta:
     - property: og:url 
       content: https://vittominacori.github.io/tutorials/how-to-create-bep20-token/
     - property: og:title
-      content: How to create BEP20 Token on Binance Smart Chain | Token Generator
+      content: How to create BEP20 Token on BNB Smart Chain (BSC) | Token Generator
     - property: og:description
-      content: Create BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.
+      content: Create BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable BEP20 Token.
     - property: twitter:title
-      content: How to create BEP20 Token on Binance Smart Chain | Token Generator
+      content: How to create BEP20 Token on BNB Smart Chain (BSC) | Token Generator
     - property: twitter:description
-      content: Create BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.
+      content: Create BEP20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable BEP20 Token.
 ---
 
-# How to create BEP20 Token
+# How to create BEP20 Token on BNB Smart Chain (BSC)
 
 ::: warning IMPORTANT UPDATE
 Token Generator is now available only on [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/).
 :::
 
-## Binance Smart Chain
-BEP20 Token Generator is a distributed application that runs on the Binance Smart Chain (BSC) network, using specially-developed Smart Contracts to enable users to build their BEP20 Tokens.
+## BNB Smart Chain (BSC)
+BEP20 Token Generator is a distributed application that runs on the BNB Smart Chain (BSC), using specially-developed Smart Contracts to enable users to build their BEP20 Tokens.
 
-Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.
+Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable BEP20 Token.
 
-Create a BEP20 Token in less than a minute.
+Create a BSC BEP20 Token in less than a minute.
 
 **No login. No setup. No coding required.**
 
@@ -105,8 +105,8 @@ Your Token will have an Owner. The account you use to deploy your Token will be 
 #### Role Based
 Your Token will have Roles. Accounts with "MINTER" role will be able to mint new tokens. Accounts with "ADMIN" role will be able to add or remove roles to minters or other admins. The account you use to deploy your Token will be ADMIN and MINTER by default. In addition your Token will have the Ownable behaviour too.
 
-### Operable Token (ERC1363)
-The Operable Token is a BEP20 compatible Token that can make a callback on the receiver contract to notify token transfers or token approvals.
+### ERC1363
+The ERC1363 is an ERC20 compatible Token that can make a callback on the receiver contract to notify token transfers or token approvals.
 
 ### Token Recover
 There are lots of tokens lost forever into Smart Contracts. It allows the contract owner to recover any BEP20 token sent into the contract for error.
@@ -133,7 +133,7 @@ detailed in Token owner's Conditions. We do not promote or recommend
 any financial investment.
 :::
 
-::: tip &copy; 2023 All rights reserved.
+::: tip &copy; 2024 All rights reserved.
 **Token Generator** is a software registered by [Vittorio Minacori](https://vittorio.minacori.me)
 
 Unauthorized reproduction, copying, distribution or any other use of the whole or any part of this software is strictly prohibited.

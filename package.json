@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "The most used Smart Contract Generator for ERC20 and BEP20 Token.",
   "scripts": {
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write --list-different .",
     "dev": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build",
     "deploy": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build && sh scripts/deploy.sh"
@@ -24,7 +26,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.9",
+    "prettier": "^3.2.4",
+    "vuepress": "^1.9.10",
     "vuepress-plugin-facebook-pixel": "^1.0.0",
     "vuepress-plugin-google-gtag": "^1.0.1"
   }
