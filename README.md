@@ -2,6 +2,7 @@
 title: Token Generator | Create ERC20 Tokens In A Few Steps
 description: Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
 home: true
+heroImage: /images/logo-token-generator.svg
 heroText: Token Generator
 tagline: Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
 actionText: Get Started →
@@ -44,6 +45,10 @@ You can effortlessly define the token's name, symbol, total supply, and decimal 
 Try it FREE.
 
 **No login. No setup. No coding required.**
+
+## Official Website
+
+- [Token Generator](https://erc20tokengenerator.com/)
 
 ## Ethereum Network
 

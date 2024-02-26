@@ -105,6 +105,10 @@ module.exports = {
           },
         ],
       },
+      {
+        text: "Official Website",
+        link: "https://erc20tokengenerator.com",
+      },
     ],
   },
 };
