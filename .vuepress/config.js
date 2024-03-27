@@ -5,15 +5,9 @@ module.exports = {
   base: "/token-generator/",
   plugins: [
     [
-      "google-gtag",
+      "vuepress-plugin-gtag",
       {
-        ga: vars.gaId,
-      },
-    ],
-    [
-      "vuepress-plugin-facebook-pixel",
-      {
-        pixelId: vars.fbPixelId,
+        gtagId: vars.gaId,
       },
     ],
   ],
@@ -49,13 +43,6 @@ module.exports = {
         property: "twitter:image",
         content:
           "https://vittominacori.github.io/token-generator/images/token-generator.jpg",
-      },
-    ],
-    [
-      "script",
-      {
-        src: "https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=en&theme=momh&thirdparty=1&always=1&noGeoIp=1&scrolling=1&hideDetailsBtn=1",
-        defer: true,
       },
     ],
   ],
