@@ -56,45 +56,66 @@ module.exports = {
         link: "/",
       },
       {
-        text: "Tutorials",
+        text: "Create Token",
         items: [
           {
-            text: "Ethereum Network",
-            link: "/tutorials/how-to-create-erc20-token/",
+            text: "Create ERC20 on Ethereum",
+            link: "https://www.smartcontracts.tools/token-generator/create/ethereum/",
+            target: "_self",
           },
           {
-            text: "BNB Smart Chain",
-            link: "/tutorials/how-to-create-bep20-token/",
+            text: "Create BEP20 on BNB Smart Chain",
+            link: "https://www.smartcontracts.tools/token-generator/create/bsc/",
+            target: "_self",
           },
           {
-            text: "Polygon PoS Chain",
-            link: "/tutorials/how-to-create-polygon-erc20-token/",
+            text: "Create ERC20 on Polygon PoS",
+            link: "https://www.smartcontracts.tools/token-generator/create/polygon/",
+            target: "_self",
+          },
+          {
+            text: "Create ERC20 on Base",
+            link: "https://www.smartcontracts.tools/token-generator/create/base/",
+            target: "_self",
+          },
+          {
+            text: "Create ERC20 on OP Mainnet",
+            link: "https://www.smartcontracts.tools/token-generator/create/optimism/",
+            target: "_self",
+          },
+          {
+            text: "Create ERC20 on Arbitrum One",
+            link: "https://www.smartcontracts.tools/token-generator/create/arbitrum/",
+            target: "_self",
+          },
+          {
+            text: "Create ERC20 on Avalanche C-Chain",
+            link: "https://www.smartcontracts.tools/token-generator/create/avalanche/",
+            target: "_self",
+          },
+          {
+            text: "Create ERC20 on World Chain",
+            link: "https://www.smartcontracts.tools/token-generator/create/worldchain/",
+            target: "_self",
+          },
+          {
+            text: "Create ERC20 on Unichain",
+            link: "https://www.smartcontracts.tools/token-generator/create/unichain/",
+            target: "_self",
           },
         ],
       },
       {
-        text: "Create Token",
-        items: [
-          {
-            text: "ERC20 on Ethereum Network",
-            link: "https://vittominacori.github.io/erc20-generator/",
-            target: "_self",
-          },
-          {
-            text: "BEP20 on BNB Smart Chain",
-            link: "https://vittominacori.github.io/bep20-generator/",
-            target: "_self",
-          },
-          {
-            text: "ERC20 on Polygon PoS Chain",
-            link: "https://vittominacori.github.io/polygon-generator/",
-            target: "_self",
-          },
-        ],
+        text: "Tutorials",
+        link: "/tutorials/",
       },
       {
         text: "Official Website",
         link: "https://erc20tokengenerator.com",
+      },
+      {
+        text: "Open App",
+        link: "https://www.smartcontracts.tools/token-generator/",
       },
     ],
   },

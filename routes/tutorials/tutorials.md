@@ -15,33 +15,32 @@ meta:
     content: Discover how to Create ERC20 or BEP20 Token in less than a minute. No login. No setup. No coding required.
 ---
 
-::: warning IMPORTANT UPDATE
-Token Generator is now available only on [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/).
-:::
-
 # Tutorials
 
-Token Generator is a distributed application that runs on the Blockchain (Ethereum, BSC and Polygon PoS), using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
+Token Generator is a distributed application that runs on the Blockchain, using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
 
 Discover how to Create ERC20 or BEP20 Token in less than a minute.
 
-**No login. No setup. No coding required.**
+**No login. No setup. No coding required. No credit card required.**
 
-::: tip Requisite
-To most easily create your ERC20 or BEP20 token, you must first install a browser extension or a mobile app called [MetaMask](https://metamask.io/).
+- [How to create ERC20 Token on Ethereum Network](/tutorials/how-to-create-erc20-token/)
+- [How to create BEP20 Token on BNB Smart Chain (BSC)](/tutorials/how-to-create-bep20-token/)
+- [How to create ERC20 Token on Polygon PoS](/tutorials/how-to-create-polygon-erc20-token/)
+
+Discover more [here](https://www.smartcontracts.tools/token-generator/docs/).
+
+## Create Token
+
+- [Create ERC20 on Ethereum](https://www.smartcontracts.tools/token-generator/create/ethereum/)
+- [Create BEP20 on BNB Smart Chain (BSC)](https://www.smartcontracts.tools/token-generator/create/bsc/)
+- [Create ERC20 on Polygon PoS](https://www.smartcontracts.tools/token-generator/create/polygon/)
+- [Create ERC20 on Base](https://www.smartcontracts.tools/token-generator/create/base/)
+- [Create ERC20 on Optimism OP Mainnet](https://www.smartcontracts.tools/token-generator/create/optimism/)
+- [Create ERC20 on Arbitrum One](https://www.smartcontracts.tools/token-generator/create/arbitrum/)
+- [Create ERC20 on Avalanche C-Chain](https://www.smartcontracts.tools/token-generator/create/avalanche/)
+- [Create ERC20 on World Chain](https://www.smartcontracts.tools/token-generator/create/worldchain/)
+- [Create ERC20 on Unichain](https://www.smartcontracts.tools/token-generator/create/unichain/)
+
+::: warning IMPORTANT UPDATE
+Token Generator is now available only on [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/).
 :::
-
-## Ethereum Network
-
-- [Create ERC20 on Ethereum Network](https://vittominacori.github.io/erc20-generator/)
-- [Documentation](/tutorials/how-to-create-erc20-token/)
-
-## BNB Smart Chain (BSC)
-
-- [Create BEP20 on BNB Smart Chain](https://vittominacori.github.io/bep20-generator/)
-- [Documentation](/tutorials/how-to-create-bep20-token/)
-
-## Polygon PoS Chain
-
-- [Create ERC20 on Polygon PoS Chain](https://vittominacori.github.io/polygon-generator/)
-- [Documentation](/tutorials/how-to-create-polygon-erc20-token/)

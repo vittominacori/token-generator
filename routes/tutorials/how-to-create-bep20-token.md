@@ -149,8 +149,8 @@ detailed in Token owner's Conditions. We do not promote or recommend
 any financial investment.
 :::
 
-::: tip &copy; 2024 All rights reserved.
-**Token Generator** is a software registered by [Vittorio Minacori](https://vittorio.minacori.me)
+::: tip &copy; 2018 - 2025 | All rights reserved.
+**[Token Generator](https://erc20tokengenerator.com/)** is a software registered by [Vittorio Minacori](https://vittorio.minacori.me)
 
 Unauthorized reproduction, copying, distribution or any other use of the whole or any part of this software is strictly prohibited.
 :::
