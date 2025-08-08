@@ -69,18 +69,13 @@ module.exports = {
             target: "_self",
           },
           {
-            text: "Create ERC20 on Polygon PoS",
-            link: "https://www.smartcontracts.tools/token-generator/create/polygon/",
-            target: "_self",
-          },
-          {
             text: "Create ERC20 on Base",
             link: "https://www.smartcontracts.tools/token-generator/create/base/",
             target: "_self",
           },
           {
-            text: "Create ERC20 on OP Mainnet",
-            link: "https://www.smartcontracts.tools/token-generator/create/optimism/",
+            text: "Create ERC20 on Polygon PoS",
+            link: "https://www.smartcontracts.tools/token-generator/create/polygon/",
             target: "_self",
           },
           {
@@ -89,18 +84,28 @@ module.exports = {
             target: "_self",
           },
           {
+            text: "Create ERC20 on OP Mainnet",
+            link: "https://www.smartcontracts.tools/token-generator/create/optimism/",
+            target: "_self",
+          },
+          {
             text: "Create ERC20 on Avalanche C-Chain",
             link: "https://www.smartcontracts.tools/token-generator/create/avalanche/",
             target: "_self",
           },
           {
-            text: "Create ERC20 on World Chain",
-            link: "https://www.smartcontracts.tools/token-generator/create/worldchain/",
+            text: "Create ERC20 on ZKsync Era",
+            link: "https://www.smartcontracts.tools/token-generator/create/zksync/",
             target: "_self",
           },
           {
             text: "Create ERC20 on Unichain",
             link: "https://www.smartcontracts.tools/token-generator/create/unichain/",
+            target: "_self",
+          },
+          {
+            text: "Create ERC20 on World Chain",
+            link: "https://www.smartcontracts.tools/token-generator/create/worldchain/",
             target: "_self",
           },
         ],

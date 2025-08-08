@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^3.4.2",
+    "prettier": "^3.6.2",
     "vue-cookie-law": "^1.13.3",
     "vuepress": "^1.9.10",
     "vuepress-plugin-gtag": "vittominacori/vuepress-plugin-gtag"

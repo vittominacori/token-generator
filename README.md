@@ -38,6 +38,10 @@ Token Generator is now available only on [SmartContracts Tools](https://www.smar
 
 Token Generator is a distributed application that runs on the Blockchain, using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
 
+Since 2018, Token Generator has been the go-to platform for over 50.000 projects and companies, eliminating the need for coding expertise and streamlining the tokenization process.
+
+Through seamless token creation, entrepreneurs and enterprises have collectively infused over $320 million into circulating supply worldwide, fueling growth and innovation.
+
 With Token Generator, you have the flexibility to tailor your token to meet specific requirements and objectives.
 The user-friendly interface provides a seamless experience, allowing even those without extensive technical knowledge to create tokens efficiently.
 You can effortlessly define the token's name, symbol, total supply, and decimal places, as well as select different features such as Mintable, Burnable, Reflection, Deflationary, Liquidity, Access Type, ERC1363 and more, giving your token its unique identity.
@@ -46,13 +50,14 @@ You can effortlessly define the token's name, symbol, total supply, and decimal 
 
 - [Ethereum](https://www.smartcontracts.tools/token-generator/ethereum/)
 - [BNB Smart Chain (BSC)](https://www.smartcontracts.tools/token-generator/bsc/)
-- [Polygon PoS](https://www.smartcontracts.tools/token-generator/polygon/)
 - [Base](https://www.smartcontracts.tools/token-generator/base/)
-- [Optimism OP Mainnet](https://www.smartcontracts.tools/token-generator/optimism/)
+- [Polygon PoS](https://www.smartcontracts.tools/token-generator/polygon/)
 - [Arbitrum One](https://www.smartcontracts.tools/token-generator/arbitrum/)
+- [Optimism OP Mainnet](https://www.smartcontracts.tools/token-generator/optimism/)
 - [Avalanche C-Chain](https://www.smartcontracts.tools/token-generator/avalanche/)
-- [World Chain](https://www.smartcontracts.tools/token-generator/worldchain/)
+- [ZKsync Era](https://www.smartcontracts.tools/token-generator/zksync/)
 - [Unichain](https://www.smartcontracts.tools/token-generator/unichain/)
+- [World Chain](https://www.smartcontracts.tools/token-generator/worldchain/)
 
 Try it FREE.
 
@@ -62,18 +67,21 @@ Try it FREE.
 
 - [Token Generator](https://erc20tokengenerator.com/)
 - [Open App](https://www.smartcontracts.tools/token-generator/)
+- [Tutorials](https://www.smartcontracts.tools/token-generator/tutorials/).
+- [Documentation](https://www.smartcontracts.tools/token-generator/docs/).
 
 ## Create Token
 
 - [Create ERC20 on Ethereum](https://www.smartcontracts.tools/token-generator/create/ethereum/)
 - [Create BEP20 on BNB Smart Chain (BSC)](https://www.smartcontracts.tools/token-generator/create/bsc/)
-- [Create ERC20 on Polygon PoS](https://www.smartcontracts.tools/token-generator/create/polygon/)
 - [Create ERC20 on Base](https://www.smartcontracts.tools/token-generator/create/base/)
-- [Create ERC20 on Optimism OP Mainnet](https://www.smartcontracts.tools/token-generator/create/optimism/)
+- [Create ERC20 on Polygon PoS](https://www.smartcontracts.tools/token-generator/create/polygon/)
 - [Create ERC20 on Arbitrum One](https://www.smartcontracts.tools/token-generator/create/arbitrum/)
+- [Create ERC20 on Optimism OP Mainnet](https://www.smartcontracts.tools/token-generator/create/optimism/)
 - [Create ERC20 on Avalanche C-Chain](https://www.smartcontracts.tools/token-generator/create/avalanche/)
-- [Create ERC20 on World Chain](https://www.smartcontracts.tools/token-generator/create/worldchain/)
+- [Create ERC20 on ZKsync Era](https://www.smartcontracts.tools/token-generator/create/zksync/)
 - [Create ERC20 on Unichain](https://www.smartcontracts.tools/token-generator/create/unichain/)
+- [Create ERC20 on World Chain](https://www.smartcontracts.tools/token-generator/create/worldchain/)
 
 ---
 

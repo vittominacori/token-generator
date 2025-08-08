@@ -3,6 +3,8 @@ permalink: tutorials/how-to-create-erc20-token
 title: How to create ERC20 Token on Ethereum Network
 description: Create ERC20 Token. Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.
 meta:
+  - http-equiv: refresh
+    content: 0; url=https://www.smartcontracts.tools/token-generator/tutorials/how-to-create-erc20-token-on-ethereum/
   - property: og:url
     content: https://vittominacori.github.io/token-generator/tutorials/how-to-create-erc20-token/
   - property: og:title
