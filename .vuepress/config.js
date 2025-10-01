@@ -69,13 +69,18 @@ module.exports = {
             target: "_self",
           },
           {
+            text: "Create ERC20 on Polygon PoS",
+            link: "https://www.smartcontracts.tools/token-generator/create/polygon/",
+            target: "_self",
+          },
+          {
             text: "Create ERC20 on Base",
             link: "https://www.smartcontracts.tools/token-generator/create/base/",
             target: "_self",
           },
           {
-            text: "Create ERC20 on Polygon PoS",
-            link: "https://www.smartcontracts.tools/token-generator/create/polygon/",
+            text: "Create ERC20 on Avalanche C-Chain",
+            link: "https://www.smartcontracts.tools/token-generator/create/avalanche/",
             target: "_self",
           },
           {
@@ -89,8 +94,8 @@ module.exports = {
             target: "_self",
           },
           {
-            text: "Create ERC20 on Avalanche C-Chain",
-            link: "https://www.smartcontracts.tools/token-generator/create/avalanche/",
+            text: "Create ERC20 on Plasma",
+            link: "https://www.smartcontracts.tools/token-generator/create/plasma/",
             target: "_self",
           },
           {
