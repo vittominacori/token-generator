@@ -94,6 +94,11 @@ module.exports = {
             target: "_self",
           },
           {
+            text: "Create ERC20 on Linea",
+            link: "https://www.smartcontracts.tools/token-generator/create/linea/",
+            target: "_self",
+          },
+          {
             text: "Create ERC20 on Plasma",
             link: "https://www.smartcontracts.tools/token-generator/create/plasma/",
             target: "_self",
