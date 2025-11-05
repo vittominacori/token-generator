@@ -48,18 +48,19 @@ You can effortlessly define the token's name, symbol, total supply, and decimal 
 
 **Token Generator** is available on:
 
-- [Ethereum](https://www.smartcontracts.tools/token-generator/ethereum/)
-- [BNB Smart Chain (BSC)](https://www.smartcontracts.tools/token-generator/bsc/)
-- [Polygon PoS](https://www.smartcontracts.tools/token-generator/polygon/)
-- [Base](https://www.smartcontracts.tools/token-generator/base/)
-- [Avalanche C-Chain](https://www.smartcontracts.tools/token-generator/avalanche/)
-- [Arbitrum One](https://www.smartcontracts.tools/token-generator/arbitrum/)
-- [Optimism OP Mainnet](https://www.smartcontracts.tools/token-generator/optimism/)
-- [Linea](https://www.smartcontracts.tools/token-generator/linea/)
-- [Plasma](https://www.smartcontracts.tools/token-generator/plasma/)
-- [ZKsync Era](https://www.smartcontracts.tools/token-generator/zksync/)
-- [Unichain](https://www.smartcontracts.tools/token-generator/unichain/)
-- [World Chain](https://www.smartcontracts.tools/token-generator/worldchain/)
+- <img :src="$withBase('/assets/crypto-icons/color/eth.svg')" alt="Ethereum" width="16" height="16"> [Ethereum](https://www.smartcontracts.tools/token-generator/ethereum/)
+- <img :src="$withBase('/assets/crypto-icons/color/bnb.svg')" alt="BNB Smart Chain (BSC)" width="16" height="16"> [BNB Smart Chain (BSC)](https://www.smartcontracts.tools/token-generator/bsc/)
+- <img :src="$withBase('/assets/crypto-icons/color/pol.svg')" alt="Polygon PoS" width="16" height="16"> [Polygon PoS](https://www.smartcontracts.tools/token-generator/polygon/)
+- <img :src="$withBase('/assets/crypto-icons/color/base.svg')" alt="Base" width="16" height="16"> [Base](https://www.smartcontracts.tools/token-generator/base/)
+- <img :src="$withBase('/assets/crypto-icons/color/avax.svg')" alt="Avalanche C-Chain" width="16" height="16"> [Avalanche C-Chain](https://www.smartcontracts.tools/token-generator/avalanche/)
+- <img :src="$withBase('/assets/crypto-icons/color/arbitrum.svg')" alt="Arbitrum One" width="16" height="16"> [Arbitrum One](https://www.smartcontracts.tools/token-generator/arbitrum/)
+- <img :src="$withBase('/assets/crypto-icons/color/optimism.svg')" alt="Optimism OP Mainnet" width="16" height="16"> [Optimism OP Mainnet](https://www.smartcontracts.tools/token-generator/optimism/)
+- <img :src="$withBase('/assets/crypto-icons/color/linea.svg')" alt="Linea" width="16" height="16"> [Linea](https://www.smartcontracts.tools/token-generator/linea/)
+- <img :src="$withBase('/assets/crypto-icons/color/plasma.svg')" alt="Plasma" width="16" height="16"> [Plasma](https://www.smartcontracts.tools/token-generator/plasma/)
+- <img :src="$withBase('/assets/crypto-icons/color/zksync.svg')" alt="ZKsync Era" width="16" height="16"> [ZKsync Era](https://www.smartcontracts.tools/token-generator/zksync/)
+- <img :src="$withBase('/assets/crypto-icons/color/unichain.svg')" alt="Unichain" width="16" height="16"> [Unichain](https://www.smartcontracts.tools/token-generator/unichain/)
+- <img :src="$withBase('/assets/crypto-icons/color/worldchain.svg')" alt="World Chain" width="16" height="16"> [World Chain](https://www.smartcontracts.tools/token-generator/worldchain/)
+- <img :src="$withBase('/assets/crypto-icons/color/arc.svg')" alt="Arc" width="16" height="16"> [Arc](https://www.smartcontracts.tools/token-generator/arc/)
 
 Try it FREE.
 
@@ -74,18 +75,19 @@ Try it FREE.
 
 ## Create Token
 
-- [Create ERC20 on Ethereum](https://www.smartcontracts.tools/token-generator/create/ethereum/)
-- [Create BEP20 on BNB Smart Chain (BSC)](https://www.smartcontracts.tools/token-generator/create/bsc/)
-- [Create ERC20 on Polygon PoS](https://www.smartcontracts.tools/token-generator/create/polygon/)
-- [Create ERC20 on Base](https://www.smartcontracts.tools/token-generator/create/base/)
-- [Create ERC20 on Avalanche C-Chain](https://www.smartcontracts.tools/token-generator/create/avalanche/)
-- [Create ERC20 on Arbitrum One](https://www.smartcontracts.tools/token-generator/create/arbitrum/)
-- [Create ERC20 on Optimism OP Mainnet](https://www.smartcontracts.tools/token-generator/create/optimism/)
-- [Create ERC20 on Linea](https://www.smartcontracts.tools/token-generator/create/linea/)
-- [Create ERC20 on Plasma](https://www.smartcontracts.tools/token-generator/create/plasma/)
-- [Create ERC20 on ZKsync Era](https://www.smartcontracts.tools/token-generator/create/zksync/)
-- [Create ERC20 on Unichain](https://www.smartcontracts.tools/token-generator/create/unichain/)
-- [Create ERC20 on World Chain](https://www.smartcontracts.tools/token-generator/create/worldchain/)
+- <img :src="$withBase('/assets/crypto-icons/color/eth.svg')" alt="Ethereum" width="16" height="16"> [Create ERC20 on Ethereum](https://www.smartcontracts.tools/token-generator/create/ethereum/)
+- <img :src="$withBase('/assets/crypto-icons/color/bnb.svg')" alt="BNB Smart Chain (BSC)" width="16" height="16"> [Create BEP20 on BNB Smart Chain (BSC)](https://www.smartcontracts.tools/token-generator/create/bsc/)
+- <img :src="$withBase('/assets/crypto-icons/color/pol.svg')" alt="Polygon PoS" width="16" height="16"> [Create ERC20 on Polygon PoS](https://www.smartcontracts.tools/token-generator/create/polygon/)
+- <img :src="$withBase('/assets/crypto-icons/color/base.svg')" alt="Base" width="16" height="16"> [Create ERC20 on Base](https://www.smartcontracts.tools/token-generator/create/base/)
+- <img :src="$withBase('/assets/crypto-icons/color/avax.svg')" alt="Avalanche C-Chain" width="16" height="16"> [Create ERC20 on Avalanche C-Chain](https://www.smartcontracts.tools/token-generator/create/avalanche/)
+- <img :src="$withBase('/assets/crypto-icons/color/arbitrum.svg')" alt="Arbitrum One" width="16" height="16"> [Create ERC20 on Arbitrum One](https://www.smartcontracts.tools/token-generator/create/arbitrum/)
+- <img :src="$withBase('/assets/crypto-icons/color/optimism.svg')" alt="Optimism OP Mainnet" width="16" height="16"> [Create ERC20 on Optimism OP Mainnet](https://www.smartcontracts.tools/token-generator/create/optimism/)
+- <img :src="$withBase('/assets/crypto-icons/color/linea.svg')" alt="Linea" width="16" height="16"> [Create ERC20 on Linea](https://www.smartcontracts.tools/token-generator/create/linea/)
+- <img :src="$withBase('/assets/crypto-icons/color/plasma.svg')" alt="Plasma" width="16" height="16"> [Create ERC20 on Plasma](https://www.smartcontracts.tools/token-generator/create/plasma/)
+- <img :src="$withBase('/assets/crypto-icons/color/zksync.svg')" alt="ZKsync Era" width="16" height="16"> [Create ERC20 on ZKsync Era](https://www.smartcontracts.tools/token-generator/create/zksync/)
+- <img :src="$withBase('/assets/crypto-icons/color/unichain.svg')" alt="Unichain" width="16" height="16"> [Create ERC20 on Unichain](https://www.smartcontracts.tools/token-generator/create/unichain/)
+- <img :src="$withBase('/assets/crypto-icons/color/worldchain.svg')" alt="World Chain" width="16" height="16"> [Create ERC20 on World Chain](https://www.smartcontracts.tools/token-generator/create/worldchain/)
+- <img :src="$withBase('/assets/crypto-icons/color/arc.svg')" alt="Arc" width="16" height="16"> [Create ERC20 on Arc](https://www.smartcontracts.tools/token-generator/create/arc/)
 
 ---
 
