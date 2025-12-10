@@ -99,6 +99,16 @@ module.exports = {
             target: "_self",
           },
           {
+            text: "Create ERC20 on Monad",
+            link: "https://www.smartcontracts.tools/token-generator/create/monad/",
+            target: "_self",
+          },
+          {
+            text: "Create ERC20 on Sonic",
+            link: "https://www.smartcontracts.tools/token-generator/create/sonic/",
+            target: "_self",
+          },
+          {
             text: "Create ERC20 on Plasma",
             link: "https://www.smartcontracts.tools/token-generator/create/plasma/",
             target: "_self",
