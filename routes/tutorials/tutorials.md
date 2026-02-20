@@ -59,6 +59,6 @@ Discover more [here](https://www.smartcontracts.tools/token-generator/tutorials/
 - <img :src="$withBase('/assets/crypto-icons/color/worldchain.svg')" alt="World Chain" width="16" height="16"> [Create ERC20 on World Chain](https://www.smartcontracts.tools/token-generator/create/worldchain/)
 - <img :src="$withBase('/assets/crypto-icons/color/arc.svg')" alt="Arc" width="16" height="16"> [Create ERC20 on Arc](https://www.smartcontracts.tools/token-generator/create/arc/)
 
-::: warning IMPORTANT UPDATE
+::: warning IMPORTANT
 Token Generator is now available only on [SmartContracts Tools](https://www.smartcontracts.tools/token-generator/).
 :::
