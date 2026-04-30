@@ -1,5 +1,11 @@
 import * as path from "path";
-import { networks, publicTokenTypes, specsDir, tokenTypes } from "./data";
+import {
+  networks,
+  publicTokenTypes,
+  siteUrl,
+  specsDir,
+  tokenTypes,
+} from "./data";
 import vars from "./.env.json";
 import "./sitemap";
 
@@ -86,6 +92,7 @@ export default {
     const tokenName = path.basename($page.relativePath, ".md");
     const pageTitle = `Discover ${tokenName} | Token Generator`;
     const description = overview($page._content);
+    const pageUrl = `${siteUrl}${tokenName}/`;
 
     $page.title = pageTitle;
     Object.assign($page.frontmatter, {
@@ -95,10 +102,13 @@ export default {
       permalink: `${tokenName}/`,
       next: false,
       prev: false,
-      meta: ["og", "twitter"].flatMap((property) => [
-        { property: `${property}:title`, content: pageTitle },
-        { property: `${property}:description`, content: description },
-      ]),
+      meta: [
+        { property: "og:url", content: pageUrl },
+        { property: "og:title", content: pageTitle },
+        { property: "og:description", content: description },
+        { property: "twitter:title", content: pageTitle },
+        { property: "twitter:description", content: description },
+      ],
     });
 
     $page._filePath = await $page._context.writeTemp(
