@@ -7,6 +7,7 @@ import {
   tokenTypes,
 } from "./data";
 import vars from "./.env.json";
+import "./readme";
 import "./sitemap";
 
 type PageMeta = {
@@ -73,6 +74,7 @@ const specFooter = (tokenName: string): string => `
 export default {
   title: "Token Generator",
   base: "/token-generator/",
+  patterns: ["routes/**/*.md"],
   plugins: [
     [
       "vuepress-plugin-gtag",
