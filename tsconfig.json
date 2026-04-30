@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "target": "ES2019",
+    "types": ["node"]
+  },
+  "include": ["types.d.ts", ".vuepress/**/*.ts", "routes/**/*.ts"]
+}
