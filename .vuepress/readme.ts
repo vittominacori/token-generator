@@ -34,7 +34,7 @@ Create a Token in less than a minute with the most trusted Smart Contract Genera
 
 Token Generator is a distributed application that runs on the Blockchain, using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
 
-Since 2018, Token Generator has been the go-to platform for over 50.000 projects and companies, eliminating the need for coding expertise and streamlining the tokenization process.
+Since 2018, Token Generator has been the go-to platform for over 55.000 projects and companies, eliminating the need for coding expertise and streamlining the tokenization process.
 
 Through seamless token creation, entrepreneurs and enterprises have collectively infused over $320 million into circulating supply worldwide, fueling growth and innovation.
 
