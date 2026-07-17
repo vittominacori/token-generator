@@ -1,6 +1,12 @@
 import * as fs from "fs";
 import * as path from "path";
-import { networks, siteUrl, tokenTypes } from "./data";
+import {
+  evmNetworks,
+  evmTokenTypes,
+  siteUrl,
+  solanaNetworks,
+  solanaTokenTypes,
+} from "./data";
 
 const appUrl = "https://www.smartcontracts.tools/token-generator/";
 const docsUrl = "https://www.smartcontracts.tools/token-generator/docs/";
@@ -13,32 +19,33 @@ const markdownLinks = (
 ): string =>
   items.map(({ text, link }) => `- [${prefix}${text}](${link})`).join("\n");
 
-const tokenTypeLinks = tokenTypes.map(({ text }) => ({
+const markdownGroup = (
+  title: string,
+  items: { text: string; link: string }[],
+  prefix = "",
+): string => `### ${title}\n\n${markdownLinks(items, prefix)}`;
+
+const evmTokenTypeLinks = evmTokenTypes.map(({ text, slug }) => ({
   text,
-  link: `${siteUrl}${text}/`,
+  link: `${siteUrl}${slug}/`,
 }));
 
-const tokenCreateLinks = tokenTypes.map(({ text }) => ({
+const solanaTokenTypeLinks = solanaTokenTypes.map(({ text, slug }) => ({
   text,
-  link: `${appUrl}create/ethereum/${encodeURIComponent(text)}`,
-}));
-
-const tokenDocsLinks = tokenTypes.map(({ text }) => ({
-  text,
-  link: `${docsUrl}?tokenType=${encodeURIComponent(text)}`,
+  link: `${siteUrl}${slug}/`,
 }));
 
 const readme = `# Token Generator
 
-Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
+Create a Token in less than a minute with the most trusted No-code Token Generator for ERC20, BEP20, SPL Token and Token 2022.
 
-Token Generator is a distributed application that runs on the Blockchain, using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
+Token Generator is a distributed application for creating fungible assets on EVM networks and Solana. It deploys specialized ERC20 or BEP20 smart contracts on EVM networks and creates Solana mints through the SPL Token Program or Token 2022.
 
 Since 2018, Token Generator has been the go-to platform for over 55.000 projects and companies, eliminating the need for coding expertise and streamlining the tokenization process.
 
 Through seamless token creation, entrepreneurs and enterprises have collectively infused over $320 million into circulating supply worldwide, fueling growth and innovation.
 
-With Token Generator, you have the flexibility to tailor your token to meet specific requirements and objectives. The user-friendly interface provides a seamless experience, allowing even those without extensive technical knowledge to create tokens efficiently. You can effortlessly define the token's name, symbol, total supply, and decimal places, as well as select different features such as Mintable, Burnable, Reflection, Deflationary, Liquidity, Access Type, ERC1363, ERC3009, ERC2612 and more, giving your token its unique identity.
+For ERC20 tokens, define the name, symbol, supply and decimals, then choose from features such as Mintable, Burnable, Reflection, Deflationary, Liquidity, Access Type, ERC1363, ERC3009 and ERC2612. For Solana, choose SPL Token or Token 2022, configure identity, supply and metadata, and review permanent mint, freeze and metadata authority options.
 
 ## Official Links
 
@@ -49,27 +56,87 @@ With Token Generator, you have the flexibility to tailor your token to meet spec
 
 ## Token Generator Networks
 
-${markdownLinks(networks.map(({ name, link }) => ({ text: name, link })))}
+${markdownGroup(
+  "EVM Networks",
+  evmNetworks.map(({ name, link }) => ({ text: name, link })),
+)}
+
+${markdownGroup(
+  "Solana",
+  solanaNetworks.map(({ name, link }) => ({ text: name, link })),
+)}
 
 ## Create Token
 
-${markdownLinks(networks.map(({ createText, createLink }) => ({ text: createText, link: createLink })))}
+${markdownGroup(
+  "EVM Networks",
+  evmNetworks.map(({ createText, createLink }) => ({
+    text: createText,
+    link: createLink,
+  })),
+)}
+
+${markdownGroup(
+  "Solana",
+  solanaTokenTypes.map(({ createText, createLink }) => ({
+    text: createText,
+    link: createLink,
+  })),
+)}
 
 ## Tutorials
 
-${markdownLinks(networks.map(({ tutorialText, tutorialLink }) => ({ text: tutorialText, link: tutorialLink })))}
+${markdownGroup(
+  "EVM Networks",
+  evmNetworks.map(({ tutorialText, tutorialLink }) => ({
+    text: tutorialText,
+    link: tutorialLink,
+  })),
+)}
+
+${markdownGroup(
+  "Solana",
+  solanaNetworks.map(({ tutorialText, tutorialLink }) => ({
+    text: tutorialText,
+    link: tutorialLink,
+  })),
+)}
 
 ## Available Token Types
 
-${markdownLinks(tokenTypeLinks)}
+${markdownGroup("EVM Networks", evmTokenTypeLinks)}
+
+${markdownGroup("Solana", solanaTokenTypeLinks)}
 
 ## Create Token Types
 
-${markdownLinks(tokenCreateLinks, "Create ")}
+${markdownGroup(
+  "EVM Networks",
+  evmTokenTypes.map(({ text, createLink }) => ({ text, link: createLink })),
+  "Create ",
+)}
+
+${markdownGroup(
+  "Solana",
+  solanaTokenTypes.map(({ createText, createLink }) => ({
+    text: createText,
+    link: createLink,
+  })),
+)}
 
 ## Token Type Documentation
 
-${markdownLinks(tokenDocsLinks, "More info about ")}
+${markdownGroup(
+  "EVM Networks",
+  evmTokenTypes.map(({ text, docsLink }) => ({ text, link: docsLink })),
+  "More info about ",
+)}
+
+${markdownGroup(
+  "Solana",
+  solanaTokenTypes.map(({ text, docsLink }) => ({ text, link: docsLink })),
+  "More info about ",
+)}
 `;
 
 fs.writeFileSync(path.resolve(process.cwd(), "README.md"), readme);

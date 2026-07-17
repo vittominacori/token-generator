@@ -1,7 +1,7 @@
 {
   "name": "token-generator",
-  "version": "1.0.0",
-  "description": "The most used Smart Contract Generator for ERC20 and BEP20 Token.",
+  "version": "2.0.0",
+  "description": "The most trusted No-code Token Generator for ERC20, BEP20, SPL Token and Token 2022 assets.",
   "private": true,
   "scripts": {
     "lint": "prettier --check .",
@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^3.8.3",
+    "prettier": "^3.9.5",
     "vue-cookie-law": "^1.13.3",
     "vuepress": "^1.9.10",
     "vuepress-plugin-gtag": "vittominacori/vuepress-plugin-gtag"

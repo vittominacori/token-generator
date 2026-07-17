@@ -1,14 +1,14 @@
 # Token Generator
 
-Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
+Create a Token in less than a minute with the most trusted No-code Token Generator for ERC20, BEP20, SPL Token and Token 2022.
 
-Token Generator is a distributed application that runs on the Blockchain, using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
+Token Generator is a distributed application for creating fungible assets on EVM networks and Solana. It deploys specialized ERC20 or BEP20 smart contracts on EVM networks and creates Solana mints through the SPL Token Program or Token 2022.
 
 Since 2018, Token Generator has been the go-to platform for over 55.000 projects and companies, eliminating the need for coding expertise and streamlining the tokenization process.
 
 Through seamless token creation, entrepreneurs and enterprises have collectively infused over $320 million into circulating supply worldwide, fueling growth and innovation.
 
-With Token Generator, you have the flexibility to tailor your token to meet specific requirements and objectives. The user-friendly interface provides a seamless experience, allowing even those without extensive technical knowledge to create tokens efficiently. You can effortlessly define the token's name, symbol, total supply, and decimal places, as well as select different features such as Mintable, Burnable, Reflection, Deflationary, Liquidity, Access Type, ERC1363, ERC3009, ERC2612 and more, giving your token its unique identity.
+For ERC20 tokens, define the name, symbol, supply and decimals, then choose from features such as Mintable, Burnable, Reflection, Deflationary, Liquidity, Access Type, ERC1363, ERC3009 and ERC2612. For Solana, choose SPL Token or Token 2022, configure identity, supply and metadata, and review permanent mint, freeze and metadata authority options.
 
 ## Official Links
 
@@ -18,6 +18,8 @@ With Token Generator, you have the flexibility to tailor your token to meet spec
 - [Documentation](https://www.smartcontracts.tools/token-generator/docs/)
 
 ## Token Generator Networks
+
+### EVM Networks
 
 - [Ethereum](https://www.smartcontracts.tools/token-generator/ethereum/)
 - [BNB Smart Chain (BSC)](https://www.smartcontracts.tools/token-generator/bsc/)
@@ -35,7 +37,13 @@ With Token Generator, you have the flexibility to tailor your token to meet spec
 - [World Chain](https://www.smartcontracts.tools/token-generator/worldchain/)
 - [Arc](https://www.smartcontracts.tools/token-generator/arc/)
 
+### Solana
+
+- [Solana](https://www.smartcontracts.tools/token-generator/solana/)
+
 ## Create Token
+
+### EVM Networks
 
 - [Create ERC20 on Ethereum](https://www.smartcontracts.tools/token-generator/create/ethereum/)
 - [Create BEP20 on BNB Smart Chain (BSC)](https://www.smartcontracts.tools/token-generator/create/bsc/)
@@ -53,7 +61,14 @@ With Token Generator, you have the flexibility to tailor your token to meet spec
 - [Create ERC20 on World Chain](https://www.smartcontracts.tools/token-generator/create/worldchain/)
 - [Create ERC20 on Arc](https://www.smartcontracts.tools/token-generator/create/arc/)
 
+### Solana
+
+- [Create SPL Token on Solana](https://www.smartcontracts.tools/token-generator/create/solana/SPLToken/)
+- [Create Token 2022 on Solana](https://www.smartcontracts.tools/token-generator/create/solana/Token2022/)
+
 ## Tutorials
+
+### EVM Networks
 
 - [How to create ERC20 Token on Ethereum](https://www.smartcontracts.tools/token-generator/tutorials/how-to-create-erc20-token-on-ethereum/)
 - [How to create BEP20 Token on BNB Smart Chain (BSC)](https://www.smartcontracts.tools/token-generator/tutorials/how-to-create-bep20-token-on-bsc/)
@@ -71,7 +86,13 @@ With Token Generator, you have the flexibility to tailor your token to meet spec
 - [How to create ERC20 Token on World Chain](https://www.smartcontracts.tools/token-generator/tutorials/how-to-create-erc20-token-on-worldchain/)
 - [How to create ERC20 Token on Arc](https://www.smartcontracts.tools/token-generator/tutorials/how-to-create-erc20-token-on-arc/)
 
+### Solana
+
+- [How to create an SPL Token or Token 2022 on Solana](https://www.smartcontracts.tools/token-generator/tutorials/how-to-create-spl-token2022-token-on-solana/)
+
 ## Available Token Types
+
+### EVM Networks
 
 - [AmazingERC20](https://vittominacori.github.io/token-generator/AmazingERC20/)
 - [AntiWhaleERC20](https://vittominacori.github.io/token-generator/AntiWhaleERC20/)
@@ -96,7 +117,14 @@ With Token Generator, you have the flexibility to tailor your token to meet spec
 - [UnlimitedERC20](https://vittominacori.github.io/token-generator/UnlimitedERC20/)
 - [X402ERC20](https://vittominacori.github.io/token-generator/X402ERC20/)
 
+### Solana
+
+- [SPL Token](https://vittominacori.github.io/token-generator/SPLToken/)
+- [Token 2022](https://vittominacori.github.io/token-generator/Token2022/)
+
 ## Create Token Types
+
+### EVM Networks
 
 - [Create AmazingERC20](https://www.smartcontracts.tools/token-generator/create/ethereum/AmazingERC20)
 - [Create AntiWhaleERC20](https://www.smartcontracts.tools/token-generator/create/ethereum/AntiWhaleERC20)
@@ -121,7 +149,14 @@ With Token Generator, you have the flexibility to tailor your token to meet spec
 - [Create UnlimitedERC20](https://www.smartcontracts.tools/token-generator/create/ethereum/UnlimitedERC20)
 - [Create X402ERC20](https://www.smartcontracts.tools/token-generator/create/ethereum/X402ERC20)
 
+### Solana
+
+- [Create SPL Token on Solana](https://www.smartcontracts.tools/token-generator/create/solana/SPLToken/)
+- [Create Token 2022 on Solana](https://www.smartcontracts.tools/token-generator/create/solana/Token2022/)
+
 ## Token Type Documentation
+
+### EVM Networks
 
 - [More info about AmazingERC20](https://www.smartcontracts.tools/token-generator/docs/?tokenType=AmazingERC20)
 - [More info about AntiWhaleERC20](https://www.smartcontracts.tools/token-generator/docs/?tokenType=AntiWhaleERC20)
@@ -145,3 +180,8 @@ With Token Generator, you have the flexibility to tailor your token to meet spec
 - [More info about TaxableERC20](https://www.smartcontracts.tools/token-generator/docs/?tokenType=TaxableERC20)
 - [More info about UnlimitedERC20](https://www.smartcontracts.tools/token-generator/docs/?tokenType=UnlimitedERC20)
 - [More info about X402ERC20](https://www.smartcontracts.tools/token-generator/docs/?tokenType=X402ERC20)
+
+### Solana
+
+- [More info about SPL Token](https://www.smartcontracts.tools/token-generator/docs/?network=solana&tokenType=SPLToken)
+- [More info about Token 2022](https://www.smartcontracts.tools/token-generator/docs/?network=solana&tokenType=Token2022)

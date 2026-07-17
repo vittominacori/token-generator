@@ -3,14 +3,19 @@ import * as path from "path";
 
 const specsDir = "routes/specs/";
 const siteUrl = "https://vittominacori.github.io/token-generator/";
+const appUrl = "https://www.smartcontracts.tools/token-generator/";
 
 export type TokenType = {
   text: string;
+  slug: string;
   link: string;
   file: string;
+  createText: string;
+  createLink: string;
+  docsLink: string;
 };
 
-export type Network = {
+export type EVMNetwork = {
   key: string;
   icon: string;
   name: string;
@@ -22,29 +27,77 @@ export type Network = {
   createLink: string;
 };
 
-type NetworkSource = {
+export type SolanaNetwork = {
+  key: "solana";
+  icon: "solana";
+  name: "Solana";
+  tokenStandard: "SPL Token / Token 2022";
+  link: string;
+  tutorialText: string;
+  tutorialLink: string;
+};
+
+type EVMNetworkSource = {
   key: string;
   icon: string;
   name: string;
   tokenStandard?: string;
 };
 
-export const tokenTypes: TokenType[] = fs
-  .readdirSync(path.resolve(process.cwd(), specsDir))
-  .filter((file) => file.endsWith(".md"))
-  .map((file) => {
-    const text = path.basename(file, ".md");
+const solanaTokenTypeSources = [
+  { text: "SPL Token", slug: "SPLToken" },
+  { text: "Token 2022", slug: "Token2022" },
+] as const;
 
-    return { text, link: `/${text}/`, file };
+const solanaTokenFiles = new Set<string>(
+  solanaTokenTypeSources.map(({ slug }) => `${slug}.md`),
+);
+
+export const evmTokenTypes: TokenType[] = fs
+  .readdirSync(path.resolve(process.cwd(), specsDir))
+  .filter((file) => file.endsWith(".md") && !solanaTokenFiles.has(file))
+  .map((file) => {
+    const slug = path.basename(file, ".md");
+
+    return {
+      text: slug,
+      slug,
+      link: `/${slug}/`,
+      file,
+      createText: `Create ${slug}`,
+      createLink: `${appUrl}create/ethereum/${encodeURIComponent(slug)}`,
+      docsLink: `${appUrl}docs/?tokenType=${encodeURIComponent(slug)}`,
+    };
   })
   .sort((a, b) => a.text.localeCompare(b.text));
 
-export const publicTokenTypes = tokenTypes.map(({ text, link }) => ({
+export const solanaTokenTypes: TokenType[] = solanaTokenTypeSources.map(
+  ({ text, slug }) => ({
+    text,
+    slug,
+    link: `/${slug}/`,
+    file: `${slug}.md`,
+    createText: `Create ${text} on Solana`,
+    createLink: `${appUrl}create/solana/${slug}/`,
+    docsLink: `${appUrl}docs/?network=solana&tokenType=${slug}`,
+  }),
+);
+
+export const publicEvmTokenTypes = evmTokenTypes.map(({ text, link }) => ({
   text,
   link,
 }));
 
-const networkSources: NetworkSource[] = [
+export const publicSolanaTokenTypes = solanaTokenTypes.map(
+  ({ text, link, createText, createLink }) => ({
+    text,
+    link,
+    createText,
+    createLink,
+  }),
+);
+
+const evmNetworkSources: EVMNetworkSource[] = [
   {
     key: "ethereum",
     icon: "eth",
@@ -123,18 +176,32 @@ const networkSources: NetworkSource[] = [
   },
 ];
 
-export const networks: Network[] = networkSources.map(
+export const evmNetworks: EVMNetwork[] = evmNetworkSources.map(
   ({ key, icon, name, tokenStandard = "ERC20" }) => ({
     key,
     icon,
     name,
     tokenStandard,
-    link: `https://www.smartcontracts.tools/token-generator/${key}/`,
+    link: `${appUrl}${key}/`,
     tutorialText: `How to create ${tokenStandard} Token on ${name}`,
-    tutorialLink: `https://www.smartcontracts.tools/token-generator/tutorials/how-to-create-${tokenStandard.toLowerCase()}-token-on-${key}/`,
+    tutorialLink: `${appUrl}tutorials/how-to-create-${tokenStandard.toLowerCase()}-token-on-${key}/`,
     createText: `Create ${tokenStandard} on ${name}`,
-    createLink: `https://www.smartcontracts.tools/token-generator/create/${key}/`,
+    createLink: `${appUrl}create/${key}/`,
   }),
 );
 
-export { siteUrl, specsDir };
+export const solanaNetworks: SolanaNetwork[] = [
+  {
+    key: "solana",
+    icon: "solana",
+    name: "Solana",
+    tokenStandard: "SPL Token / Token 2022",
+    link: `${appUrl}solana/`,
+    tutorialText: "How to create an SPL Token or Token 2022 on Solana",
+    tutorialLink: `${appUrl}tutorials/how-to-create-spl-token2022-token-on-solana/`,
+  },
+];
+
+export const allTokenTypes = [...evmTokenTypes, ...solanaTokenTypes];
+
+export { appUrl, siteUrl, specsDir };

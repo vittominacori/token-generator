@@ -18,10 +18,12 @@ import StandardERC20 from "./StandardERC20.md";
 import StarterERC20 from "./StarterERC20.md";
 import SwappableERC20 from "./SwappableERC20.md";
 import TaxableERC20 from "./TaxableERC20.md";
+import Token2022 from "./Token2022.md";
 import UnlimitedERC20 from "./UnlimitedERC20.md";
 import X402ERC20 from "./X402ERC20.md";
+import SPLToken from "./SPLToken.md";
 
-export const tokenSpecs = {
+export const evmTokenSpecs = {
   AmazingERC20,
   AntiWhaleERC20,
   BurnableERC20,
@@ -44,4 +46,9 @@ export const tokenSpecs = {
   TaxableERC20,
   UnlimitedERC20,
   X402ERC20,
+};
+
+export const solanaTokenSpecs = {
+  SPLToken,
+  Token2022,
 };

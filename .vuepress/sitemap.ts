@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import { siteUrl, tokenTypes } from "./data";
+import { allTokenTypes, siteUrl } from "./data";
 
 const staticPaths = [
   "",
@@ -10,7 +10,10 @@ const staticPaths = [
   "tutorials/how-to-create-polygon-erc20-token/",
 ];
 
-const entries = [...staticPaths, ...tokenTypes.map(({ text }) => `${text}/`)];
+const entries = [
+  ...staticPaths,
+  ...allTokenTypes.map(({ slug }) => `${slug}/`),
+];
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset

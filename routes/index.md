@@ -1,11 +1,11 @@
 ---
 permalink: /
-title: Token Generator | Create ERC20 Tokens In A Few Steps
-description: Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
+title: Token Generator | Create ERC20 and Solana Tokens
+description: Create ERC20, BEP20, SPL Token and Token 2022 assets in less than a minute with the most trusted no-code Token Generator.
 home: true
 heroImage: /images/logo-token-generator.svg
 heroText: Token Generator
-tagline: Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
+tagline: Create ERC20, BEP20, SPL Token and Token 2022 assets in less than a minute without coding.
 actionText: Get Started →
 actionLink: /#what-is-token-generator
 navbar: true
@@ -13,20 +13,20 @@ meta:
   - property: og:url
     content: https://vittominacori.github.io/token-generator/
   - property: og:title
-    content: Token Generator | Create ERC20 Tokens In A Few Steps
+    content: Token Generator | Create ERC20 and Solana Tokens
   - property: og:description
-    content: Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
+    content: Create ERC20, BEP20, SPL Token and Token 2022 assets in less than a minute with the most trusted no-code Token Generator.
   - property: twitter:title
-    content: Token Generator | Create ERC20 Tokens In A Few Steps
+    content: Token Generator | Create ERC20 and Solana Tokens
   - property: twitter:description
-    content: Create a Token in less than a minute with the most trusted Smart Contract Generator for ERC20 and BEP20.
+    content: Create ERC20, BEP20, SPL Token and Token 2022 assets in less than a minute with the most trusted no-code Token Generator.
 features:
-  - title: Configure your ERC20
-    details: Define your token name, symbol and total supply, as well as select different features such as Mintable, Burnable, Deflationary, Taxable, Reflection, Anti Whale Protection, Liquidity Pool Setup and others, giving your token its unique identity.
-  - title: Deploy your Contract
-    details: Select your preferred network and effortlessly deploy Smart Contracts for your ERC20 token. Once deployed, instantly receive it in your wallet, enabling seamless integration with exchanges, DEXs, and DeFi protocols.
+  - title: Configure your Token
+    details: Choose an ERC20 token template or the SPL Token or Token 2022 program on Solana. Define identity, supply and decimals, then configure the features, metadata and authorities available for the selected ecosystem.
+  - title: Deploy from your Wallet
+    details: Select an EVM network or Solana and approve deployment directly from a compatible wallet. The resulting smart contract or Solana mint is controlled by your wallet and ready for supported exchanges, DEXs and applications.
   - title: Save Time and Money
-    details: Token Generator is the pioneering no-code tool that revolutionized the way of creating ERC20 tokens. Battle-Tested Smart Contracts. No Additional Costs. FREE Version Available.
+    details: Token Generator provides a guided no-code workflow for EVM and Solana assets. Use battle-tested ERC20 smart contracts or established Solana token programs, with a FREE version available.
 ---
 
 <img :src="$withBase('/images/token-generator.jpg')" alt="Token Generator" width="1200">
@@ -37,7 +37,7 @@ Token Generator is now available only on [SmartContracts Tools](https://www.smar
 
 ## What is Token Generator?
 
-Token Generator is a distributed application that runs on the Blockchain, using specially-developed Smart Contracts to enable users to build their ERC20 or BEP20 Tokens.
+Token Generator is a distributed application for creating fungible assets on EVM networks and Solana. It deploys specialized ERC20 or BEP20 smart contracts on EVM networks and creates Solana mints through the SPL Token Program or Token 2022.
 
 Since 2018, Token Generator has been the go-to platform for over 55.000 projects and companies, eliminating the need for coding expertise and streamlining the tokenization process.
 
@@ -45,12 +45,21 @@ Through seamless token creation, entrepreneurs and enterprises have collectively
 
 With Token Generator, you have the flexibility to tailor your token to meet specific requirements and objectives.
 The user-friendly interface provides a seamless experience, allowing even those without extensive technical knowledge to create tokens efficiently.
-You can effortlessly define the token's name, symbol, total supply, and decimal places, as well as select different features such as Mintable, Burnable, Reflection, Deflationary, Liquidity, Access Type, ERC1363, ERC3009, ERC2612 and more, giving your token its unique identity.
+
+For ERC20 tokens, you can define the token's name, symbol, total supply and decimal places, then select features such as Mintable, Burnable, Reflection, Deflationary, Liquidity, Access Type, ERC1363, ERC3009, ERC2612 and more.
+
+For Solana tokens, you can choose SPL Token or Token 2022, configure identity, decimals and initial supply, publish optional metadata to IPFS and decide whether to revoke mint, freeze or metadata update authorities.
 
 **Token Generator** is available on:
 
 <ul>
-  <li v-for="network in $site.themeConfig.networks" :key="network.link">
+  <li class="token-list-heading"><strong>EVM Networks</strong></li>
+  <li v-for="network in $site.themeConfig.evmNetworks" :key="network.link">
+    <img :src="$withBase(`/assets/crypto-icons/color/${network.icon}.svg`)" :alt="network.name" width="16" height="16">
+    <a :href="network.link" target="_blank" rel="noopener noreferrer">{{ network.name }}</a>
+  </li>
+  <li class="token-list-heading"><strong>Solana</strong></li>
+  <li v-for="network in $site.themeConfig.solanaNetworks" :key="network.link">
     <img :src="$withBase(`/assets/crypto-icons/color/${network.icon}.svg`)" :alt="network.name" width="16" height="16">
     <a :href="network.link" target="_blank" rel="noopener noreferrer">{{ network.name }}</a>
   </li>
@@ -70,16 +79,27 @@ Try it FREE.
 ## Create Token
 
 <ul>
-  <li v-for="network in $site.themeConfig.networks" :key="network.createLink">
+  <li class="token-list-heading"><strong>EVM Networks</strong></li>
+  <li v-for="network in $site.themeConfig.evmNetworks" :key="network.createLink">
     <img :src="$withBase(`/assets/crypto-icons/color/${network.icon}.svg`)" :alt="network.name" width="16" height="16">
     <a :href="network.createLink" target="_blank" rel="noopener noreferrer">{{ network.createText }}</a>
+  </li>
+  <li class="token-list-heading"><strong>Solana</strong></li>
+  <li v-for="tokenType in $site.themeConfig.solanaTokenTypes" :key="tokenType.link">
+    <img :src="$withBase('/assets/crypto-icons/color/solana.svg')" alt="Solana" width="16" height="16">
+    <a :href="tokenType.createLink" target="_blank" rel="noopener noreferrer">{{ tokenType.createText }}</a>
   </li>
 </ul>
 
 <section class="available-token-types">
   <h2>Available Token Types</h2>
   <ul>
-    <li v-for="tokenType in $site.themeConfig.tokenTypes" :key="tokenType.link">
+    <li class="token-list-heading"><strong>EVM Networks</strong></li>
+    <li v-for="tokenType in $site.themeConfig.evmTokenTypes" :key="tokenType.link">
+      <RouterLink :to="tokenType.link">{{ tokenType.text }}</RouterLink>
+    </li>
+    <li class="token-list-heading"><strong>Solana</strong></li>
+    <li v-for="tokenType in $site.themeConfig.solanaTokenTypes" :key="tokenType.link">
       <RouterLink :to="tokenType.link">{{ tokenType.text }}</RouterLink>
     </li>
   </ul>

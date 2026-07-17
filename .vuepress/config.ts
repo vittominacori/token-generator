@@ -1,10 +1,14 @@
 import * as path from "path";
 import {
-  networks,
-  publicTokenTypes,
+  allTokenTypes,
+  evmNetworks,
+  evmTokenTypes,
+  publicEvmTokenTypes,
+  publicSolanaTokenTypes,
+  solanaNetworks,
+  solanaTokenTypes,
   siteUrl,
   specsDir,
-  tokenTypes,
 } from "./data";
 import vars from "./.env.json";
 import "./readme";
@@ -59,15 +63,15 @@ const overview = (content: string): string => {
   return plainText(rest.slice(0, nextHeading === -1 ? undefined : nextHeading));
 };
 
-const specFooter = (tokenName: string): string => `
+const specFooter = (
+  tokenName: string,
+  createLink: string,
+  docsLink: string,
+): string => `
 
 <div class="token-spec-actions">
-  <a class="token-spec-action token-spec-action-primary" href="https://www.smartcontracts.tools/token-generator/create/ethereum/${encodeURIComponent(
-    tokenName,
-  )}">Create ${tokenName}</a>
-  <a class="token-spec-action" href="https://www.smartcontracts.tools/token-generator/docs/?tokenType=${encodeURIComponent(
-    tokenName,
-  )}">More Info</a>
+  <a class="token-spec-action token-spec-action-primary" href="${createLink}">Create ${tokenName}</a>
+  <a class="token-spec-action" href="${docsLink}">More Info</a>
 </div>
 `;
 
@@ -91,17 +95,21 @@ export default {
       return;
     }
 
-    const tokenName = path.basename($page.relativePath, ".md");
+    const tokenSlug = path.basename($page.relativePath, ".md");
+    const tokenType = allTokenTypes.find(({ slug }) => slug === tokenSlug);
+    if (!tokenType) return;
+
+    const tokenName = tokenType.text;
     const pageTitle = `Discover ${tokenName} | Token Generator`;
     const description = overview($page._content);
-    const pageUrl = `${siteUrl}${tokenName}/`;
+    const pageUrl = `${siteUrl}${tokenSlug}/`;
 
     $page.title = pageTitle;
     Object.assign($page.frontmatter, {
       title: pageTitle,
       metaTitle: pageTitle,
       description,
-      permalink: `${tokenName}/`,
+      permalink: `${tokenSlug}/`,
       next: false,
       prev: false,
       meta: [
@@ -115,7 +123,11 @@ export default {
 
     $page._filePath = await $page._context.writeTemp(
       `spec-pages/${$page.key}.md`,
-      `${$page._content}${specFooter(tokenName)}`,
+      `${$page._content}${specFooter(
+        tokenName,
+        tokenType.createLink,
+        tokenType.docsLink,
+      )}`,
     );
   },
   head: [
@@ -154,15 +166,23 @@ export default {
     ],
   ],
   themeConfig: {
-    networks,
-    tokenTypes: publicTokenTypes,
+    evmNetworks,
+    solanaNetworks,
+    evmTokenTypes: publicEvmTokenTypes,
+    solanaTokenTypes: publicSolanaTokenTypes,
     sidebar: {
       [`/${specsDir}`]: [
         {
-          title: "Available Token Types",
+          title: "EVM Token Types",
           collapsable: false,
           sidebarDepth: 0,
-          children: tokenTypes.map(({ file, text }) => [file, text]),
+          children: evmTokenTypes.map(({ file, text }) => [file, text]),
+        },
+        {
+          title: "Solana",
+          collapsable: false,
+          sidebarDepth: 0,
+          children: solanaTokenTypes.map(({ file, text }) => [file, text]),
         },
       ],
     },
@@ -175,7 +195,16 @@ export default {
       },
       {
         text: "Token Types",
-        items: publicTokenTypes,
+        items: [
+          {
+            text: "EVM Networks",
+            items: publicEvmTokenTypes,
+          },
+          {
+            text: "Solana",
+            items: publicSolanaTokenTypes,
+          },
+        ],
       },
       {
         text: "Tutorials",
@@ -183,11 +212,24 @@ export default {
       },
       {
         text: "Create Token",
-        items: networks.map(({ createText, createLink }) => ({
-          text: createText,
-          link: createLink,
-          target: "_self",
-        })),
+        items: [
+          {
+            text: "EVM Networks",
+            items: evmNetworks.map(({ createText, createLink }) => ({
+              text: createText,
+              link: createLink,
+              target: "_self",
+            })),
+          },
+          {
+            text: "Solana",
+            items: solanaTokenTypes.map(({ createText, createLink }) => ({
+              text: createText,
+              link: createLink,
+              target: "_self",
+            })),
+          },
+        ],
       },
       {
         text: "Official Website",
