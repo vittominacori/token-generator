@@ -145,6 +145,11 @@ const evmNetworkSources: EVMNetworkSource[] = [
     name: "Monad",
   },
   {
+    key: "robinhood",
+    icon: "robinhood",
+    name: "Robinhood",
+  },
+  {
     key: "sonic",
     icon: "sonic",
     name: "Sonic",
